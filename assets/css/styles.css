@@ -150,7 +150,7 @@ img {
 .header {
   width: 100%;
   position: fixed;
-  top: 0.5rem;
+  top: 0;
   left: 0;
   z-index: var(--z-fixed);
   background: transparent;
@@ -230,6 +230,9 @@ img {
 }
 
 /* Change background header */
+.scroll-header {
+  background-color: var(--body-color);
+}
 
 /* Active link */
 
