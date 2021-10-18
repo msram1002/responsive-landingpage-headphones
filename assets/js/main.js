@@ -8,7 +8,7 @@ const navMenu = document.getElementById('nav-menu'),
 if (navToggle) {
   navToggle.addEventListener('click', () => {
     navMenu.classList.add('show-menu');
-  })
+  });
 }
 
 /*===== MENU HIDDEN =====*/
@@ -16,7 +16,7 @@ if (navToggle) {
 if (navClose) {
   navClose.addEventListener('click', () => {
     navMenu.classList.remove('show-menu');
-  })
+  });
 }
 
 /*=============== HIDE MENU MOBILE ===============*/
